@@ -10,7 +10,6 @@ public class CustomerDemo {
 		lunchBrowser();
 		navigate();
 		login();
-		FlyoutWindow();
 		createCustomer();
 		deleteCustomer();
 		logout();
@@ -51,17 +50,7 @@ public class CustomerDemo {
 			e.printStackTrace();
 		}
 	}
-	private static void FlyoutWindow()
-	{
-		try
-		{
-			oBrowser.findElement(By.id("gettingStartedShortcutsMenuCloseId")).click();
-			Thread.sleep(2000);
-		}catch(Exception e)
-		{
-			e.printStackTrace();
-		}
-	}
+
 	
 	private static void createCustomer()
 	{
